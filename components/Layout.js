@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "./Header";
 import Footer from "./Footer";
-import StyleSheet from "../styles/Layout.module.css";
+import StyleSheet from "@/styles/Layout.module.css";
 export default function Layout({ title, keywords, description, children }) {
   return (
     <div>
